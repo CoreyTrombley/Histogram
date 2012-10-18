@@ -1,0 +1,11 @@
+<%= link_to 'new url', root_path %>
+
+<br />
+<ol>
+<% @answer.each do |k,v| %>
+<li>
+<%= v %>
+<%= k %>
+</li>
+<% end %>
+</ol>
